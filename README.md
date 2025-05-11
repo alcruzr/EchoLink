@@ -19,6 +19,8 @@ The Echolink uses the Meshtastic open source firmware. The custom firmware used 
 Provided in the firmware folder is the latest Meshtastic firmware build. Also provided is the custom variant that was used for the EchoLink. 
 
 # Hardware
+![pcb](https://github.com/user-attachments/assets/914ace8b-9561-488f-bc49-256502ea235c)
+
 The EchoLink is utilizes an ESP32-S3 microcontroller which has integrated wifi and bluetooth connectivity. The small form factor, along with its integrated antenna, also helped minimize the overall size of the EchoLink. The ESP32-S3 was also chosen because of the wide support within the Meshtastic firmware.
 
 The GPS module has a dedicated ON/OFF switch to allow for easy toggle of the GPS.
