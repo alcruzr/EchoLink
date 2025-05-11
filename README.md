@@ -28,7 +28,8 @@ The GPS module has a dedicated ON/OFF switch to allow for easy toggle of the GPS
 A 3.7V Li-Poly battery is used to supply power to the EchoLink. The power circuit utilizes a linear voltage regulator with a fixed output voltage of 3.3V to power all components. To manage the power path between the battery input and USB-Micro B 5V input, a MOSFET power management circuit was implemented. This approach will allow the Echolink to be powered via the internal battery or external 5V input (for charging or power) automatically. 
 ![Screenshot 2025-05-10 230943](https://github.com/user-attachments/assets/744ef008-2b51-4e1f-9a08-629657d507e3)
 
-
+# Case
+The case was designed in Fusion360 and 3D printed using PLA. 
 
 
 
