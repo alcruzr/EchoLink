@@ -34,6 +34,7 @@ The LoRa transceiver comes with an on-board uFL connector. A uFL to SMA connecto
 The GPS module has a dedicated ON/OFF switch to allow for easy toggle of the GPS.
 
 A 3.7V Li-Poly battery is used to supply power to the EchoLink. (NOTE: when selecting battery, make sure to verify polarity of JST connector.)
+
 ![jst polarity](https://github.com/user-attachments/assets/d757adee-f7f9-406f-9fae-ae6dbab10c13)
 
 
@@ -43,8 +44,13 @@ The power circuit utilizes a linear voltage regulator with a fixed output voltag
 # Case
 The case was designed in Fusion360 and 3D printed using PLA. The simple design of the case allowed for minimal parts and hardware while also allowing access to all user buttons, switches and connections. The case consists of a main body, top cover, and single push button. A single M3x6x5 heat-pressed threaded insert and one M3x20 screw holds the entire case together. 
 NOTE: The current case dimensions and design can only accomodate the 1200mAh 3.7V Li-Poly battery from Adafruit (https://www.adafruit.com/product/258). If using different battery, please verify that dimensions are similar to the provided battery. 
+
 ![case final](https://github.com/user-attachments/assets/f20fc7b2-4c28-44ca-ad96-cc6ba3ad9977)
 
+# Resources
 
+https://www.youtube.com/watch?v=zeSlRvCd6tg
+
+https://meshtastic.org/
 
 
