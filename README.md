@@ -1,8 +1,7 @@
 # Overview
-The EchoLink is a LoRa device that is able to send off-grid type messages. The firmware aspect of the Echolink utilizes Meshtastic, an open source firmware. The hardware aspect of the Echolink is a custom designed PCB that was created for a small and portable form factor. A 3D printed enclosure provides easy access to user buttons while also providing protection to the internal PCB and battery. 
-![20250511_080326](https://github.com/user-attachments/assets/3b13db46-b323-4b13-b8f9-df6288d85935)
+The EchoLink is a LoRa device that is able to send off-grid type messages when paired with a bluetooth enabled smartphone. The firmware aspect of the Echolink utilizes Meshtastic, an open source firmware. The hardware aspect of the Echolink is a custom designed PCB that was created for a small and portable form factor. A 3D printed enclosure provides easy access to user buttons while also providing protection to the internal PCB and battery. 
 
-
+![overall](https://github.com/user-attachments/assets/f95ccc5c-e5f3-4119-84d4-96a6698fde52)
 
 # Specifications
 * LoRa Transceiver: Waveshare Core 1262 HF LoRa Module, SX1262 Chip
@@ -20,6 +19,9 @@ The EchoLink is a LoRa device that is able to send off-grid type messages. The f
 The Echolink uses the Meshtastic open source firmware. The custom firmware used for the EchoLink and its hardware is provided. Instructions on how to customize the Meashtastic firmware were followed from the official Meshtastic website https://meshtastic.org/docs/development/firmware/build/
 
 Provided in the firmware folder is the latest Meshtastic firmware build. Also provided is the custom variant that was used for the EchoLink. 
+
+Once the firmware is uploaded to the Echolink and powered ON, please refer to the Meshtastic open source project website for further details and instructions on how to pair and operate with a bluetooth enabled smartphone device.  
+https://meshtastic.org/
 
 # Hardware
 ![pcb top+bott](https://github.com/user-attachments/assets/b160e808-4cc0-4985-a100-dbd152d24632)
