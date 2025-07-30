@@ -1,8 +1,7 @@
 # Overview
-The EchoLink is a LoRa device that is able to send off-grid type messages. The firmware aspect of the Echolink utilizes Meshtastic, an open source firmware. The hardware aspect of the Echolink is a custom designed PCB that was created for a small and portable form factor. A 3D printed enclosure provides easy access to user buttons while also providing protection to the internal PCB and battery. 
-![20250511_080326](https://github.com/user-attachments/assets/3b13db46-b323-4b13-b8f9-df6288d85935)
+The EchoLink is a LoRa device that is able to send off-grid type messages when paired with a bluetooth enabled smartphone. The firmware aspect of the Echolink utilizes Meshtastic, an open source firmware. The hardware aspect of the Echolink is a custom designed PCB that was created for a small and portable form factor. A 3D printed enclosure provides easy access to user buttons while also providing protection to the internal PCB and battery. 
 
-
+![overall](https://github.com/user-attachments/assets/f95ccc5c-e5f3-4119-84d4-96a6698fde52)
 
 # Specifications
 * LoRa Transceiver: Waveshare Core 1262 HF LoRa Module, SX1262 Chip
@@ -21,6 +20,9 @@ The Echolink uses the Meshtastic open source firmware. The custom firmware used 
 
 Provided in the firmware folder is the latest Meshtastic firmware build. Also provided is the custom variant that was used for the EchoLink. 
 
+Once the firmware is uploaded to the Echolink and powered ON, please refer to the Meshtastic open source project website for further details and instructions on how to pair and operate with a bluetooth enabled smartphone device.  
+https://meshtastic.org/
+
 # Hardware
 ![pcb top+bott](https://github.com/user-attachments/assets/b160e808-4cc0-4985-a100-dbd152d24632)
 
@@ -32,6 +34,7 @@ The LoRa transceiver comes with an on-board uFL connector. A uFL to SMA connecto
 The GPS module has a dedicated ON/OFF switch to allow for easy toggle of the GPS.
 
 A 3.7V Li-Poly battery is used to supply power to the EchoLink. (NOTE: when selecting battery, make sure to verify polarity of JST connector.)
+
 ![jst polarity](https://github.com/user-attachments/assets/d757adee-f7f9-406f-9fae-ae6dbab10c13)
 
 
@@ -41,8 +44,13 @@ The power circuit utilizes a linear voltage regulator with a fixed output voltag
 # Case
 The case was designed in Fusion360 and 3D printed using PLA. The simple design of the case allowed for minimal parts and hardware while also allowing access to all user buttons, switches and connections. The case consists of a main body, top cover, and single push button. A single M3x6x5 heat-pressed threaded insert and one M3x20 screw holds the entire case together. 
 NOTE: The current case dimensions and design can only accomodate the 1200mAh 3.7V Li-Poly battery from Adafruit (https://www.adafruit.com/product/258). If using different battery, please verify that dimensions are similar to the provided battery. 
+
 ![case final](https://github.com/user-attachments/assets/f20fc7b2-4c28-44ca-ad96-cc6ba3ad9977)
 
+# Resources
 
+https://www.youtube.com/watch?v=zeSlRvCd6tg
+
+https://meshtastic.org/
 
 
