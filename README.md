@@ -16,9 +16,9 @@ The EchoLink is a LoRa device that is able to send off-grid type messages when p
 * GPS: Adafruit Industries ULTIMATE GPS MODULE PA1616D - 66 (integrated antenna)
 
 # Firmware
-The Echolink uses the Meshtastic open source firmware. The custom firmware used for the EchoLink and its hardware is provided. Instructions on how to customize the Meashtastic firmware were followed from the official Meshtastic website https://meshtastic.org/docs/development/firmware/build/
+The Echolink uses the Meshtastic open source firmware. The custom firmware used for the EchoLink and its hardware is provided. Instructions on how to customize and build the Meashtastic firmware were followed from the official Meshtastic website https://meshtastic.org/docs/development/firmware/build/
 
-Provided in the firmware folder is the latest Meshtastic firmware build. Also provided is the custom variant that was used for the EchoLink. 
+Provided in the firmware folder is the latest Meshtastic firmware build with the custom variant (ESP32-S3-WROOM-1) used for the EchoLink already included. When compiling the firmware, use the environment "ESP32-S3-WROOM-1".
 
 Once the firmware is uploaded to the Echolink and powered ON, please refer to the Meshtastic open source project website for further details and instructions on how to pair and operate with a bluetooth enabled smartphone device.  
 https://meshtastic.org/
