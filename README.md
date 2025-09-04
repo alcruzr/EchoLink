@@ -16,9 +16,10 @@ The EchoLink is a LoRa device that is able to send off-grid type messages when p
 * GPS: Adafruit Industries ULTIMATE GPS MODULE PA1616D-66 (integrated antenna)
 
 # Firmware
-The Echolink uses the Meshtastic open source firmware. The custom firmware used for the EchoLink and its hardware is provided. Instructions on how to compile and upload the Meashtastic firmware can be found on the official Meshtastic website https://meshtastic.org/docs/development/firmware/build/
+The Echolink uses the Meshtastic open source firmware. The custom variant used for the EchoLink and its hardware is provided. The latest Meshtastic firmware will have to be downloaded from https://github.com/meshtastic/firmware 
+The "echolink" variant will have to be copied into the /variants/esp32s3 folder. When compiling the firmware using VSCode, select the "echolink" environment. 
 
-Provided in the firmware folder is the latest Meshtastic firmware with the custom variant (echolink) already included. When compiling the firmware, use the environment "echolink".
+Detailed instructions on how to customize, compile, and upload the Meashtastic firmware can be found on the official Meshtastic website.  https://meshtastic.org/docs/development/firmware/build/
 
 Once the firmware is uploaded to the Echolink device and powered ON, please refer to the Meshtastic open source project website for further details and instructions on how to pair and operate with a bluetooth enabled smartphone device.  
 https://meshtastic.org/
@@ -49,7 +50,7 @@ There is also an available grove connector which allows for external I2C accesso
 Config 1:
 
 The case was designed in Fusion360 and 3D printed using PLA. The simple design of the case allowed for minimal parts and hardware while also allowing access to all user buttons, switches and connections. The case consists of a main body, top cover, and single push button. A single M3x6x5 heat-pressed threaded insert and one M3x20 screw holds the entire case together. 
-NOTE: The current case dimensions and design can only accomodate the 1200mAh 3.7V Li-Poly battery from Adafruit (https://www.adafruit.com/product/258). If using different battery, please verify that dimensions are similar to the provided battery. 
+NOTE: The current case dimensions and design can only accomodate the 1200mAh 3.7V Li-Poly battery from Adafruit (https://www.adafruit.com/product/258). If using a different battery, please verify that dimensions are similar to the provided battery. 
 
 <img width="1888" height="739" alt="case-bodyTop_label_final" src="https://github.com/user-attachments/assets/00d36fd0-80cf-477c-a198-1b6faaafc319" />
 
