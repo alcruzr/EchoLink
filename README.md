@@ -49,8 +49,10 @@ There is also an available grove connector which allows for external I2C accesso
 # Confugurations
 Config 1:
 
-The case was designed in Fusion360 and 3D printed using PLA. The simple design of the case allowed for minimal parts and hardware while also allowing access to all user buttons, switches and connections. The case consists of a main body, top cover, and single push button. A single M3x6x5 heat-pressed threaded insert and one M3x20 screw holds the entire case together. 
-NOTE: The current case dimensions and design can only accomodate the 1200mAh 3.7V Li-Poly battery from Adafruit (https://www.adafruit.com/product/258). If using a different battery, please verify that dimensions are similar to the provided battery. 
+The case was designed in Fusion360 and 3D printed using PLA. The simple design of the case allowed for minimal parts and hardware while also allowing access to all user buttons, switches and connections. The case consists of a main body, top cover, and single push button. A single M3x6x5 heat-pressed threaded insert and one M3x20 screw holds the entire case together. If the Grove connector is used, the battery will have to be installed at an angle to avoid interfering with the connector.
+[pic]
+
+NOTE: The current case dimensions and design can only accomodate the 1200mAh 3.7V Li-Poly battery from Adafruit (https://www.adafruit.com/product/258). If using a different battery, please verify that dimensions are similar. 
 
 <img width="1888" height="739" alt="case-bodyTop_label_final" src="https://github.com/user-attachments/assets/00d36fd0-80cf-477c-a198-1b6faaafc319" />
 
@@ -58,7 +60,22 @@ NOTE: The current case dimensions and design can only accomodate the 1200mAh 3.7
 
 Config 2:
 
+The EchoLink can also be configured to fit in a 4"x3"x1" plsatic enclosure that is easily purchased on amazon (link). The PCB allows for the OLED display to be mounted horizontally for this configuration. NOTE: when soldering the buzzer to the PCB, make sure it is moved as far down as possible to avoid interference with the OLED display
+[pic: buzzer and OLED]
 
+The CardKB mini keyboard is attached to the lid of the box with double sided tape and the included Grove connector is used to connect to the EchoLink. The Grove cable wires are soldered to the extra OLED pads on the EchoLink. Provided is a stl file for a cable retainer that can be mounted on the lid of the box to provide a cleaner look. 
+[pic]
+
+Provided is a stl file for the insert that will allow the EchoLink to be easily mounted inside the box. A washer (stl provided), single M3 screw insert, and screw is used to mount the EchoLink to the insert. Some double sided tape is used to mount the insert to the inside of the box. 
+[pic: tape on bottom]
+
+Provided on the insert is a holder for a SMA connector.
+[pic]
+
+The insert was designed to be flexible and a tab is provided to allow the user to pull up and be able to access the USB-C connector for charging/programming. 
+[pic]
+
+NOTE: The current case dimensions and design can only accomodate the 1200mAh 3.7V Li-Poly battery from Adafruit (https://www.adafruit.com/product/258). If using a different battery, please verify that dimensions are similar.
 
 # Resources
 
