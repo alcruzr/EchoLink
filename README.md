@@ -1,7 +1,8 @@
 # Overview
 The EchoLink is a LoRa device that is able to send off-grid type messages when paired with a bluetooth enabled smartphone. The firmware aspect of the Echolink utilizes Meshtastic, an open source firmware. The hardware aspect of the EchoLink is a custom designed PCB that was created for a small and portable form factor.  A custom designed 3D printed enclosure provides easy access to user buttons/switches while also providing protection to the internal PCB and battery.
 
-![overall](https://github.com/user-attachments/assets/28b4a74a-3890-48b2-94cd-04092795fc5d)
+![overall_cropped](https://github.com/user-attachments/assets/0deace5f-272d-4df2-a672-4282b56c3c8d)
+
 
 
 # Specifications
