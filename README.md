@@ -1,7 +1,9 @@
 # Overview
-The EchoLink is a LoRa device that is able to send off-grid type messages when paired with a bluetooth enabled smartphone. The firmware aspect of the Echolink utilizes Meshtastic, an open source firmware. The hardware aspect of the EchoLink is a custom designed PCB that was created for a small and portable form factor. The custom PCB allows for two different configurations of the EchoLink device. Configuration 1 utilizes a custom 3D printed enclosure that provides easy access to user buttons/switches while also providing protection to the internal PCB and battery. Configuration 2 utilizes a tin container as the device enclosure, along with the CardKB Mini Keyboard by M5STACK (not included), which allows for a stand-alone device configuration that does not need a paired smartphone to send/receive messages.
+The EchoLink is a LoRa device that is able to send off-grid type messages when paired with a bluetooth enabled smartphone. The firmware aspect of the Echolink utilizes Meshtastic, an open source firmware. The hardware aspect of the EchoLink is a custom designed PCB that was created for a small and portable form factor.  A custom designed 3D printed enclosure provides easy access to user buttons/switches while also providing protection to the internal PCB and battery.
 
-[pic]
+![overall_cropped](https://github.com/user-attachments/assets/0deace5f-272d-4df2-a672-4282b56c3c8d)
+
+
 
 # Specifications
 * LoRa Transceiver: Waveshare Core 1262 HF LoRa Module, SX1262 Chip
@@ -16,9 +18,10 @@ The EchoLink is a LoRa device that is able to send off-grid type messages when p
 * GPS: Adafruit Industries ULTIMATE GPS MODULE PA1616D-66 (integrated antenna)
 
 # Firmware
-The Echolink uses the Meshtastic open source firmware. The custom firmware used for the EchoLink and its hardware is provided. Instructions on how to compile and upload the Meashtastic firmware can be found on the official Meshtastic website https://meshtastic.org/docs/development/firmware/build/
+The Echolink uses the Meshtastic open source firmware. The custom variant used for the EchoLink and its hardware is provided. The latest Meshtastic firmware will have to be downloaded from https://github.com/meshtastic/firmware 
+The "echolink" variant will have to be copied into the /variants/esp32s3 folder. When compiling the firmware using VSCode, select the "echolink" environment. 
 
-Provided in the firmware folder is the latest Meshtastic firmware with the custom variant (echolink) already included. When compiling the firmware, use the environment "echolink".
+Detailed instructions on how to customize, compile, and upload the Meashtastic firmware can be found on the official Meshtastic website.  https://meshtastic.org/docs/development/firmware/build/
 
 Once the firmware is uploaded to the Echolink device and powered ON, please refer to the Meshtastic open source project website for further details and instructions on how to pair and operate with a bluetooth enabled smartphone device.  
 https://meshtastic.org/
@@ -45,18 +48,13 @@ The power circuit utilizes a linear voltage regulator with a fixed output voltag
 
 There is also an available grove connector which allows for external I2C accessories to be connected.
 
-# Confugurations
-Config 1:
+# Case
 
-The case was designed in Fusion360 and 3D printed using PLA. The simple design of the case allowed for minimal parts and hardware while also allowing access to all user buttons, switches and connections. The case consists of a main body, top cover, and single push button. A single M3x6x5 heat-pressed threaded insert and one M3x20 screw holds the entire case together. 
-NOTE: The current case dimensions and design can only accomodate the 1200mAh 3.7V Li-Poly battery from Adafruit (https://www.adafruit.com/product/258). If using different battery, please verify that dimensions are similar to the provided battery. 
+The case was designed in Fusion360 and 3D printed using PLA. The simple design of the case allowed for minimal parts and hardware while also allowing access to all user buttons, switches and connections. The case consists of a main body, top cover, and single push button. A single M3x6x5 heat-pressed threaded insert and one M3x20 screw holds the entire case together. If the Grove connector is used, the battery will have to be installed at an angle to avoid interfering with the connector.
+
+NOTE: The current case dimensions and design can only accomodate the 1200mAh 3.7V Li-Poly battery from Adafruit (https://www.adafruit.com/product/258). If using a different battery, please verify that dimensions are similar. 
 
 <img width="1888" height="739" alt="case-bodyTop_label_final" src="https://github.com/user-attachments/assets/00d36fd0-80cf-477c-a198-1b6faaafc319" />
-
-
-
-Config 2:
-
 
 
 # Resources
