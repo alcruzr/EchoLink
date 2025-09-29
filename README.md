@@ -1,7 +1,8 @@
 # Overview
 The EchoLink is a LoRa device that is able to send off-grid type messages when paired with a bluetooth enabled smartphone. The firmware aspect of the Echolink utilizes Meshtastic, an open source firmware. The hardware aspect of the EchoLink is a custom designed PCB that was created for a small and portable form factor.  A custom designed 3D printed enclosure provides easy access to user buttons/switches while also providing protection to the internal PCB and battery.
 
-[pic]
+![overall](https://github.com/user-attachments/assets/28b4a74a-3890-48b2-94cd-04092795fc5d)
+
 
 # Specifications
 * LoRa Transceiver: Waveshare Core 1262 HF LoRa Module, SX1262 Chip
@@ -49,7 +50,6 @@ There is also an available grove connector which allows for external I2C accesso
 # Case
 
 The case was designed in Fusion360 and 3D printed using PLA. The simple design of the case allowed for minimal parts and hardware while also allowing access to all user buttons, switches and connections. The case consists of a main body, top cover, and single push button. A single M3x6x5 heat-pressed threaded insert and one M3x20 screw holds the entire case together. If the Grove connector is used, the battery will have to be installed at an angle to avoid interfering with the connector.
-[pic]
 
 NOTE: The current case dimensions and design can only accomodate the 1200mAh 3.7V Li-Poly battery from Adafruit (https://www.adafruit.com/product/258). If using a different battery, please verify that dimensions are similar. 
 
